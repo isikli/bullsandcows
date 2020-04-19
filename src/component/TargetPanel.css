@@ -1,0 +1,26 @@
+
+
+.target-panel {
+  display:flex;
+  flex: 1 0 auto;
+  width:25%;
+}
+
+.target-panel-row {
+  display:flex;
+  flex: 1 0 auto;
+}
+
+.target-panel-row-button {
+  display:flex;
+  width:25%;
+  height:100%;
+
+  flex: 1 0 auto;
+}
+
+.target-panel-row-button > button {
+  flex: 1 0 auto;
+  height:100%;
+  border-radius: 50%
+}

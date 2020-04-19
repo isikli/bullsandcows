@@ -1,0 +1,19 @@
+.result-panel {
+  background-color: #858694;
+  display: flex;
+  flex-direction: column;
+  flex: 1 0 auto;
+}
+
+.result-panel-row {
+  background-color: #858694;
+  display: flex;
+  margin: 0px;
+  padding: 0px;
+  height:40px;
+}
+
+.result-panel-row > button{
+  background-color: #e0e0e0;
+  flex: 1 0 auto;
+}

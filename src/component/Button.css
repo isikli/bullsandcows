@@ -1,0 +1,32 @@
+.component-button {
+  width: 25%;
+  flex: 1 0 auto;
+  display:flex
+
+}
+
+
+.component-button button {
+  flex: 1 0 auto;
+    border-radius: 12px;
+}
+
+
+.component-button-0  {
+  background-color: blue;
+}
+
+.component-button-1  {
+  background-color: red;
+}
+
+.component-button-2  {
+  background-color: green;
+}
+
+.component-button-3  {
+  background-color: yellow;
+}
+.component-button-4  {
+  background-color: orange;
+}

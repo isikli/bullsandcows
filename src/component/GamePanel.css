@@ -1,0 +1,16 @@
+.game-gamebutton-panel {
+  background-color: #858694;
+  display: flex;
+  flex-direction: column;
+  flex: 1 0 auto;
+  width: 100%;
+
+}
+
+.game-gamebutton-panel-row {
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  flex: 1 0 auto;
+
+}

@@ -1,0 +1,14 @@
+
+
+.component-game-button {
+  width: 25%;
+  display:flex;
+    flex: 1 0 auto;
+    height:40px;
+}
+
+
+.component-game-button  button {
+    flex: 1 0 auto;
+  border-radius: 12px;
+}
