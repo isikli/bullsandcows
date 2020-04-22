@@ -4,6 +4,9 @@ export default function update(obj, x, y) {
     console.log ("Finished");
     return;
   }
+  console.log (obj.colors);
+  console.log (obj.currrow);
+
   if (x === "0")
   {
     obj.colors[obj.currrow][y] = "blue";

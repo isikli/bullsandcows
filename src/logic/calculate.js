@@ -26,10 +26,13 @@ for (var i=0; i<4; i++)
   {
     for (var j=0; j<4; j++)
     {
-      if (obj.target[j] === obj.colors[obj.currrow][i])
+      if (obj.colors[obj.currrow][i] === obj.target[j])
       {
-        obj.result[obj.currrow][i] = "yellow";
-        break;
+        if (!(obj.result[obj.currrow][j] === "blue"))
+        {
+          obj.result[obj.currrow][i] = "yellow";
+          break;
+        }
       }
     }
   }
@@ -45,16 +48,19 @@ for (var i=0; i<4; i++)
   }
 }
 
+
 obj.currrow = obj.currrow + 1;
 if (obj.currrow == obj.maxtries)
 {
   obj.finished = "yes";
 }
 
+
 if (isComplete)
 {
   obj.finished = "yes";
 }
+
 if (obj.finished === "yes")
 {
   obj.displayTarget = obj.target;

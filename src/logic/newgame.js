@@ -25,15 +25,17 @@ export default function newgame()
         break;
       }
     }
+
+
     var obj = {};
     obj.target = arr;
     obj.displayTarget = Array (4).fill ("black");
-    obj.colors = init ("white");
     obj.currrow=0;
-    obj.result=init ("white");
     obj.disable="yes";
-    obj.maxtries=6;
     obj.finished="no";
+    obj.result=init ("white");
+    obj.colors=init ("white");
+    obj.maxtries = 6;
 
     console.log (obj.target);
 
