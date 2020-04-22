@@ -65,7 +65,14 @@ if (obj.finished === "yes")
 {
   obj.displayTarget = obj.target;
   obj.disable = "yes";
-
+} else {
+  for (var i=0; i<4; i++)
+  {
+    if (obj.result[obj.currrow-1][i] === "blue")
+    {
+      obj.colors[obj.currrow][i] = obj.colors[obj.currrow-1][i];
+    }
+  }
 }
 return obj;
 }

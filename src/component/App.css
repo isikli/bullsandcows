@@ -1,6 +1,10 @@
 .component-app {
   display: flex;
   flex-direction: column;
+  padding-top: 25px;
+  padding-left: 25px;
+
+
 }
 
 .target-panel-cont {
